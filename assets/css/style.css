@@ -7,21 +7,30 @@ Stylesheet: Main Stylesheet
 /*********************
 GENERAL STYLES
 *********************/
-body {
-    border: 30px solid #222; //need a better solution
-}
-//this hero does not work need a functional hero that uses page featured image
-.hero {
-    background-image: url("http://localhost/geometric/wp-content/uploads/2016/02/Ruler-pencil.jpg");
-    background-position: 50% 50%;
-    -webkit-background-size: cover;
-    background-size: cover;
-    text-align: center;
-    position: relative;
-    width: 100%;
+
+.hero:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+    opacity: .8; 
     height: 100vh;
-    overflow: hidden;
 }
+.hero .intro {
+    padding: 2rem 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.hero h1 {
+    color: #fff;
+}
+
+
 /*********************
 LINK STYLES
 *********************/
@@ -43,9 +52,14 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
+.header {
+    position: fixed;
+    z-index: 90;
+}
 .top-bar {
     height: 5rem;
     background-color: transparent;
+    padding: 1.5rem;
 }
 
 .top-bar ul {
@@ -56,8 +70,8 @@ NAVIGATION STYLES
     text-transform: uppercase;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
-    color: #222;
-    border: 4px solid #222;
+    color: #fff;
+    border: 4px solid #fff;
 }
 
 .top-bar .title-area {
