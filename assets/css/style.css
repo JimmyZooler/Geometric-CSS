@@ -8,6 +8,10 @@ Stylesheet: Main Stylesheet
 GENERAL STYLES
 *********************/
 
+/*********************
+HOME PAGE STYLES
+*********************/
+
 .hero:before {
     content: '';
     position: absolute;
@@ -22,14 +26,28 @@ GENERAL STYLES
 .hero .intro {
     padding: 2rem 0;
     position: relative;
-    top: 50%;
-    transform: translateY(-50%); 
+    top: 60%;
+    transform: translateY(-60%); 
 }
 
+.hero {
+    color: #f2f2f2;}
 .hero h1 {
-    color: #fff;
+    font-size: 3.5rem;
+    text-transform: uppercase;
 }
 
+.second-home {
+    padding: 3rem 0;
+    font-family: Georgia, serif; }
+
+.left-column p {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.right-column p {
+    font-size: 1.1rem;
+}
 
 /*********************
 LINK STYLES
@@ -55,27 +73,46 @@ NAVIGATION STYLES
 .header {
     position: fixed;
     z-index: 90;
-}
+    width: 100%;
+    padding: 0.5rem 1.5rem;}
+
 .top-bar {
     height: 5rem;
     background-color: transparent;
-    padding: 1.5rem;
+    
 }
 
 .top-bar ul {
     background-color: transparent;
 }
 .top-bar .menu li a {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 400;
     font-family: 'Montserrat', sans-serif;
     color: #fff;
-    border: 4px solid #fff;
+    opacity: 0.7;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    
 }
 
-.top-bar .title-area {
-  z-index: 1; }
+.top-bar .menu li a:hover {
+    opacity: 1;
+}
+
+.top-bar-right .menu-item {
+    padding: 0 0 0 3rem;
+}
+.top-bar-left .menu li a {
+    border: 4px solid #fff;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
 
 .off-canvas-list ul {
   margin-left: 0; }
@@ -298,7 +335,10 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  margin-top: 1em; }
+  margin-top: 1em; 
+  background: #222;
+    color: #eee; 
+    padding-top: 1rem; }
 
 /*********************
 FOUNDATION STYLES
