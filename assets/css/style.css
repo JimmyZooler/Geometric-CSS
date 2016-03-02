@@ -37,6 +37,12 @@ HOME PAGE STYLES
     text-transform: uppercase;
 }
 
+@media only screen and (max-width: 40.063em) { 
+    .hero h1{
+        font-size: 2.5rem;
+    }
+}
+
 .second-home {
     padding: 3rem 0;
     font-family: Georgia, serif; }
@@ -335,11 +341,95 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  margin-top: 1em; 
-  background: #222;
-    color: #eee; 
-    padding-top: 1rem; }
+  margin-top: 1em; }
 
+.footer {
+  background-color: #292c2f;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1rem; }
+    .footer .inline-list a {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 3px 0 0; }
+  .footer .contact {
+    list-style-type: none;
+    margin: 0;
+    text-align: left;
+    color: #fff; }
+    .footer .contact li {
+      margin-bottom: 2rem; }
+      .footer .contact li p {
+        padding-left: 5rem; }
+    .footer .contact i {
+      position: absolute;
+      background-color: #33383b;
+      color: #fff;
+      font-size: 2rem;
+      border-radius: 50%;
+      line-height: 1;
+      margin: 0 0 0 -4rem;
+      vertical-align: middle;
+      padding: .25em .45em; }
+  .footer .social a {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    line-height: 2rem;
+    margin: 0 3px 0 0; }
+  .footer .source-org {
+    color: #8f9296;
+    font-size: 0.875rem;
+    margin: 1rem 0 1rem 0;
+    text-align: right; }
+  .footer .footer-links {
+    text-align: right;
+  }
+  .footer .footer-links a {
+    list-style: none;
+    font-weight: normal;
+    color: #fff;
+    padding: 3rem 0 2rem;
+    margin: 0;
+    font-size: 0.875rem; }
+    .footer .footer-links a::after {
+      content: "•";
+      padding: 0 0.2rem 0 0.4rem; }
+    .footer .footer-links a:last-child::after {
+      content: "";
+      padding: 0 0.4rem 0 0.8rem; }
+  @media only screen and (min-width: 40.063em) {
+    .footer {
+      padding: 2rem; }
+      .footer p {
+        text-align: left; }
+      .footer .social {
+        text-align: left;
+        margin: 0; }
+      .footer .footer-form .contact {
+        position: absolute;
+        left: -45%;
+        top: 10%; } 
+        .footer .footer-links a {
+            text-align: right;}}
+
+.logo {
+  color: #fff;
+  font-size: 1.5rem; }
+  .logo i {
+    margin-right: 0.5rem; }
 /*********************
 FOUNDATION STYLES
 *********************/

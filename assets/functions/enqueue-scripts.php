@@ -23,6 +23,8 @@ function site_scripts() {
     
     // Register google fonts 
     wp_enqueue_style('geometric-google-fonts', 'https://fonts.googleapis.com/css?family=Montserrat:400,700');
+    // Register Foundation Social Icons
+    wp_enqueue_style('foundation-icons', 'http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css');
 
     // Comment reply script for threaded comments
     if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
