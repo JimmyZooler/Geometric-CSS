@@ -8,13 +8,33 @@ Template Name: Contact Page
 
     <section class="hero" style=" background: url('<?php the_field('hero_image'); ?>') no-repeat center center; -webkit-background-size: cover; background-size: cover; width: 100%; height: 100vh; overflow: hidden;">
         <div class="row intro">
-            <div class="small-centered medium-uncentered large-12 medium-12 columns">
+            <div class="small-centered medium-uncentered large-12 medium-12 columns contact-h1">
                 
                 <h1 class="hero-heading"><?php the_field('heading'); ?></h1>
+                <h3 class="hero-heading"><?php the_field('heading_2'); ?></h3>
               
             </div>
         </div>
     </section>
+<section class="contact-form-section">
+    <div class="row">
+        <div class="medium-offset-2 medium-8 columns">
+            <p id="contact-heading"><?php the_field('contact_heading'); ?></p>
+            <div class="row ">
+                <div class="contact-form medium-7 small-12 columns">
+                    <?php the_field('contact_form'); ?>
+                </div>
+                <div class="contact-icons medium-5 columns">
+                    <ul class="contact">
+                        <li><p><i class="fi-telephone"></i>+1-656-453-9966</p></li>
+                        <li><p><i class="fi-mail"></i>contact@emperor.com</p></li>
+                    </ul>             
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
 
 
 
