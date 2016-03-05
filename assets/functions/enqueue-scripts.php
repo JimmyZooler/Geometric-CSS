@@ -22,7 +22,7 @@ function site_scripts() {
     wp_enqueue_style( 'site-css', get_template_directory_uri() . '/assets/css/style.css', array(), '', 'all' );
     
     // Register google fonts 
-    wp_enqueue_style('geometric-google-fonts', 'https://fonts.googleapis.com/css?family=Montserrat:400,700');
+    wp_enqueue_style('geometric-google-fonts', 'https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
     // Register Foundation Social Icons
     wp_enqueue_style('foundation-icons', 'http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css');
 

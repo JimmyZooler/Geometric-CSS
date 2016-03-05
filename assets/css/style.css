@@ -7,7 +7,18 @@ Stylesheet: Main Stylesheet
 /*********************
 GENERAL STYLES
 *********************/
-
+body {
+    font-family: 'Open Sans', Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 300;
+}
+/*p {
+    font-family: Georgia, serif;
+    font-weight: 400;
+}*/
 /*********************
 HOME PAGE STYLES
 *********************/
@@ -44,8 +55,7 @@ HOME PAGE STYLES
 }
 
 .second-home {
-    padding: 3rem 0;
-    font-family: Georgia, serif; }
+    padding: 3rem 0; }
 
 .left-column p {
     font-size: 1.8rem;
@@ -93,12 +103,31 @@ Contact Page STYLES
       position: absolute;
       background-color: #dc4225;
       color: #fff;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       border-radius: 50%;
       line-height: 1;
-      margin: 0 0 0 -4rem;
+      margin: 0 0 0 -3rem;
       vertical-align: middle;
       padding: .25em .45em; }
+    
+    .wpcf7-submit {
+        float: right;
+        background-color: #005180;
+        border-radius: 3px;
+        border: none;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 3px 9px;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+    .wpcf7-submit:hover {
+        background-color: #002f4b;
+    }
+    
+    
 /*********************
 LINK STYLES
 *********************/
@@ -139,7 +168,7 @@ NAVIGATION STYLES
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #fff;
     opacity: 0.7;
     float: right;
