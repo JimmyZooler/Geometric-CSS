@@ -1,16 +1,16 @@
 <?php
 /*
-Template Name: Home Page
+Template Name: About Page
 */
 ?>
 
 <?php get_header(); ?>
-			
+
     <section class="hero" style=" background: url('<?php the_field('hero_image'); ?>') no-repeat center center; -webkit-background-size: cover; background-size: cover; width: 100%; height: 100vh; overflow: hidden;">
         <div class="row intro">
-            <div class="small-centered medium-uncentered large-12 medium-12 columns">
+            <div class="small-centered medium-uncentered large-12 medium-12 columns contact-h1">
                 
-                <h1 class="hero-heading"><?php the_field('heading_'); ?></h1>
+                <h1 class="hero-heading"><?php the_field('heading'); ?></h1>
                 <h3 class="hero-heading"><?php the_field('heading_2'); ?></h3>
               
             </div>
@@ -19,13 +19,16 @@ Template Name: Home Page
     <section class="second-section">
         <div class="row">
             <div class="left-column medium-4 columns">
-                <?php the_field('column_1_content'); ?>
+                <image src="<?php the_field('column_1'); ?>"/>
             </div>
             <div class="right-column medium-8 columns">
-                <?php the_field('column_2_content'); ?>
+                <p><?php the_field('column_2'); ?></p>
             </div>
         </div>
 
     </section>
 
+
+
 <?php get_footer(); ?>
+

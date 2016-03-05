@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
 }*/
 /*********************
-HOME PAGE STYLES
+HOME PAGE and ABOUT PAGE STYLES
 *********************/
 
 .hero:before {
@@ -54,7 +54,7 @@ HOME PAGE STYLES
     }
 }
 
-.second-home {
+.second-section {
     padding: 3rem 0; }
 
 .left-column p {
@@ -64,7 +64,12 @@ HOME PAGE STYLES
 .right-column p {
     font-size: 1.1rem;
 }
-
+.left-column img {
+    border-radius: 50%;
+    vertical-align: middle;
+    max-height: 370px;
+    margin: 0 0 3rem 0;
+}
 /*********************
 Contact Page STYLES
 *********************/
@@ -112,12 +117,13 @@ Contact Page STYLES
     
     .wpcf7-submit {
         float: right;
-        background-color: #005180;
+        background-color: #004166;
         border-radius: 3px;
         border: none;
         color: #fff;
         text-transform: uppercase;
         padding: 3px 9px;
+        width: 100%;
         -webkit-transition: all 0.2s ease-in-out;
         -moz-transition: all 0.2s ease-in-out;
         -o-transition: all 0.2s ease-in-out;
@@ -125,6 +131,7 @@ Contact Page STYLES
     }
     .wpcf7-submit:hover {
         background-color: #002f4b;
+        font-weight: 600;
     }
     
     
