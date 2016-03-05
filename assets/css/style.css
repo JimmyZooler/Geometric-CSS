@@ -100,40 +100,41 @@ Contact Page STYLES
     margin: 0;
     text-align: left;
     color: #33383b; }
-    .contact-form-section .contact li {
-      margin-bottom: 4rem; }
-      .contact-form-section .contact li p {
-        padding-left: 5rem; }
-    .contact-form-section .contact i {
-      position: absolute;
-      background-color: #dc4225;
-      color: #fff;
-      font-size: 1.2rem;
-      border-radius: 50%;
-      line-height: 1;
-      margin: 0 0 0 -3rem;
-      vertical-align: middle;
-      padding: .25em .45em; }
+.contact-form-section .contact li {
+    margin-bottom: 4rem; }
+.contact-form-section .contact li p {
+    padding-left: 5rem; }
+.contact-form-section .contact i {
+    position: absolute;
+    background-color: #dc4225;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    line-height: 1;
+    margin: 0 0 0 -3rem;
+    vertical-align: middle;
+    padding: .25em .45em; }
     
-    .wpcf7-submit {
-        float: right;
-        background-color: #004166;
-        border-radius: 3px;
-        border: none;
-        color: #fff;
-        text-transform: uppercase;
-        padding: 3px 9px;
-        width: 100%;
-        -webkit-transition: all 0.2s ease-in-out;
-        -moz-transition: all 0.2s ease-in-out;
-        -o-transition: all 0.2s ease-in-out;
-        transition: all 0.2s ease-in-out;
-    }
-    .wpcf7-submit:hover {
-        background-color: #002f4b;
-        font-weight: 600;
-    }
+.wpcf7-submit {
+    float: right;
+    background-color: #004166;
+    border-radius: 1px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 3px 9px;
+    width: 100%;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.wpcf7-submit:hover {
+    background-color: #002f4b; }
     
+@media only screen and (max-width: 640px) {
+    #contact-heading { font-size: 1.1875rem; }
+}
     
 /*********************
 LINK STYLES
