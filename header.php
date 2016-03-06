@@ -31,7 +31,7 @@
 
 		<!-- Drop Google Analytics here -->
 		<!-- end analytics -->
-
+                <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	</head>
 	
 	<!-- Uncomment this line if using the Off-Canvas Menu --> 
@@ -46,7 +46,7 @@
 				
 				<div class="off-canvas-content" data-off-canvas-content>
 					
-					<header class="header" role="banner">
+					<header class="header nav-down" role="banner">
 							
 						 <!-- This navs will be applied to the topbar, above all content 
 							  To see additional nav styles, visit the /parts directory -->

@@ -161,7 +161,9 @@ NAVIGATION STYLES
     position: fixed;
     z-index: 90;
     width: 100%;
-    padding: 0.5rem 1.5rem;}
+    padding: 0.5rem 1.5rem;
+    top: 32px;
+    transition: top 0.2s ease-in-out;}
 
 .top-bar {
     height: 5rem;
@@ -209,6 +211,9 @@ NAVIGATION STYLES
   .off-canvas-list ul .dropdown {
     margin-left: 20px; }
 
+  .nav-up {
+      top: -96px;
+  }
 /*********************
 POSTS & CONTENT STYLES
 *********************/
