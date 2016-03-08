@@ -17,10 +17,10 @@ Template Name: Home Page
     </section>
     <section class="second-section">
         <div class="row">
-            <div class="left-column medium-4 columns">
+            <div class="left-column medium-12 large-4 columns">
                 <?php the_field('column_1_content'); ?>
             </div>
-            <div class="right-column medium-8 columns">
+            <div class="right-column medium-12 large-8 columns">
                 <?php the_field('column_2_content'); ?>
             </div>
         </div>
