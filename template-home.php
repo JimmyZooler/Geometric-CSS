@@ -12,7 +12,6 @@ Template Name: Home Page
                 
                 <h1 class="hero-heading"><?php the_field('heading_'); ?></h1>
                 <h3 class="hero-heading"><?php the_field('heading_2'); ?></h3>
-              
             </div>
         </div>
     </section>

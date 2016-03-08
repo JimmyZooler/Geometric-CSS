@@ -1,8 +1,9 @@
 				        <footer class="footer">
                                             <div class="row">
                                                 <div class="small-12 medium-6 large-6 columns">
-                                                    <p class="logo show-for-small-only"><i class="fi-target"></i> GEOMETRIC</p>
-                                                    <p class="logo hide-for-small-only"><i class="fi-target"></i>GEOMETRIC</p> 
+                                                    <p class="logo show-for-small-only">GEOMETRIC</p>
+                                                    <p class="logo hide-for-small-only">GEOMETRIC</p>
+                                                    <p>Web Design and Development</p>
                                                     <ul class="inline-list social">
                                                         <a href="#"><i class="fi-social-facebook"></i></a>
                                                         <a href="#"><i class="fi-social-twitter"></i></a>

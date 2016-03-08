@@ -21,10 +21,10 @@ Template Name: Contact Page
         <div class="medium-offset-2 medium-8 columns">
             <p id="contact-heading"><?php the_field('contact_heading'); ?></p>
             <div class="row ">
-                <div class="contact-form medium-7 small-12 columns">
+                <div class="contact-form medium-12 large-7 columns">
                     <?php the_field('contact_form'); ?>
                 </div>
-                <div class="contact-icons medium-5 columns">
+                <div class="contact-icons medium-12 large-5 columns">
                     <ul class="contact">
                         <li><p><i class="fi-telephone"></i>+1-656-453-9966</p></li>
                         <li><p><i class="fi-mail"></i>contact@emperor.com</p></li>

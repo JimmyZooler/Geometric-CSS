@@ -73,8 +73,7 @@ $topbar-unstack-breakpoint: medium !default;
     width: auto;
   }
 }
-
-/// Makes sections of a top bar stack on top of each other.
+// Makes sections of a top bar stack on top of each other.
 @mixin top-bar-stacked {
   @if $global-flexbox {
     flex-wrap: wrap;
