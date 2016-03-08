@@ -185,25 +185,38 @@ NAVIGATION STYLES
     float: right; }
 .menu-button-wrap {
     padding-top: 4px;
-    overflow: auto;}
+    overflow: auto;
+    float: right; }
 
 .top-bar-right .menu-item {
     padding: 4px 0 0 3rem;
 }
 .top-bar-left .menu li a {
-    border: 4px solid #f2f2f2;;
+    border: 4px solid #f2f2f2;
     -webkit-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
+}
+ #menu-main-menu-1 > :first-child {
+    display: none;
 }
 @media only screen and (max-width: 40.063em) {
     .top-bar-left, .top-bar-right {
         width: 50%; }
     .header {
         padding: 0.5rem 0; }
+    .top-bar .menu li a {
+        font-size: 1.3rem;}
+    .top-bar-left .menu li a {
+    border: 3px solid #f2f2f2; }
+    
 }
 .off-canvas {
+    background-color: #292c2f;
+    margin-top: 3rem;
+}
+.off-canvas-wrapper {
     background-color: #292c2f;
 }
 /****off-canvas menu items ***/

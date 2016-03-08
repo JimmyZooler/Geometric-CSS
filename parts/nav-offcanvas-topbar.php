@@ -12,8 +12,8 @@
 	</div>
 	<div class="top-bar-right float-right show-for-small-only">
 		<ul class="menu menu-button-wrap">
-			<li class="menu-button"><button class="menu-icon" type="button" data-toggle="off-canvas"></button></li> 
-			<!--<li><a data-toggle="off-canvas"><?php _e( 'Menu', 'jointswp' ); ?></a></li>-->
+			<!--<li class="menu-button"><button class="menu-icon" type="button" data-toggle="off-canvas"></button></li>--> 
+			<li><a data-toggle="off-canvas"><?php _e( 'Menu', 'jointswp' ); ?></a></li>
 		</ul>
 	</div>
 </div>
