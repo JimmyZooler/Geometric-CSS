@@ -26,8 +26,8 @@ Template Name: Contact Page
                 </div>
                 <div class="contact-icons medium-12 large-5 columns">
                     <ul class="contact">
-                        <li><p><i class="fi-telephone"></i>+1-656-453-9966</p></li>
-                        <li><p><i class="fi-mail"></i>contact@emperor.com</p></li>
+                        <li><p><i class="fi-telephone"></i>+1-819-592-1855</p></li>
+                        <li><p><i class="fi-mail"></i>hi@geometricwebdesign.com</p></li>
                     </ul>             
                 </div>
             </div>

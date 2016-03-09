@@ -14,6 +14,9 @@ function site_scripts() {
     // Adding script for hiding header on scroll 
     wp_enqueue_script( 'header_scroll-js', get_template_directory_uri() . '/assets/js/header_scroll.js', array( jquery ), '', true );
     
+    // Adding script for preloader screen 
+//    wp_enqueue_script( 'preloader-js', get_template_directory_uri() . '/assets/js/preloader.js', array( jquery ), '', true );
+//    
      // Register Motion-UI
     wp_enqueue_style( 'motion-ui-css', get_template_directory_uri() . '/vendor/motion-ui/dist/motion-ui.min.css', array(), '', 'all' );
 	

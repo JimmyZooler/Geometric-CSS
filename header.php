@@ -15,7 +15,7 @@
 		<!-- If Site Icon isn't set in customizer -->
 		<?php if ( ! function_exists( 'has_site_icon' ) || ! has_site_icon() ) { ?>
 			<!-- Icons & Favicons -->
-			<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
+			<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/cube.png">
 			<link href="<?php echo get_template_directory_uri(); ?>/assets/images/apple-icon-touch.png" rel="apple-touch-icon" />
 			<!--[if IE]>
 				<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
@@ -39,7 +39,7 @@
 	<body <?php body_class(); ?>>
 
 		<div class="off-canvas-wrapper">
-			
+                    <!--<div id="preloader"><h3>GEOMETRIC</h3></div>-->
 			<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
 				
 				<?php get_template_part( 'parts/content', 'offcanvas' ); ?>
