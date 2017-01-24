@@ -20,9 +20,9 @@
                                               <div class="small-12 medium-6 large-6 columns footer-right">
                                                 <nav role="navigation">
                                                       <p class="footer-links">
-                                                          <a href="localhost/Geometric">Home</a>
-                                                          <a href="localhost/Geometric">About</a>
-                                                          <a href="localhost/Geometric">Contact</a>
+                                                          <a href="/">Home</a>
+                                                          <a href="/about">About</a>
+                                                          <a href="/contact">Contact</a>
                                                       </p>
                                                 </nav>
                                                 <p class="source-org copyright">Copyright &copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>

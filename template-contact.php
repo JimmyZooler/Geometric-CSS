@@ -6,7 +6,7 @@ Template Name: Contact Page
 
 <?php get_header(); ?>
 
-    <section class="hero" style=" background: url('<?php the_field('hero_image'); ?>') no-repeat center center; -webkit-background-size: cover; background-size: cover; width: 100%; height: 100vh; overflow: hidden;">
+    <section class="hero" style=" background: url('<?php the_field('hero_image'); ?>') no-repeat top center fixed; -webkit-background-size: cover; background-size: cover; width: 100%; height: 100vh; overflow: hidden;">
         <div class="row intro">
             <div class="small-centered medium-uncentered large-12 medium-12 columns contact-h1">
                 
@@ -20,17 +20,16 @@ Template Name: Contact Page
     <div class="row">
         <div class="medium-offset-2 medium-8 columns">
             <p id="contact-heading"><?php the_field('contact_heading'); ?></p>
-            <div class="row ">
-                <div class="contact-form medium-12 large-7 columns">
+            
+                <div class="contact-form">
                     <?php the_field('contact_form'); ?>
                 </div>
-                <div class="contact-icons medium-12 large-5 columns">
+<!--                <div class="contact-icons medium-12 large-5 columns">
                     <ul class="contact">
                         <li><p><i class="fi-telephone"></i>+1-819-592-1855</p></li>
                         <li><p><i class="fi-mail"></i>hi@geometricwebdesign.com</p></li>
                     </ul>             
-                </div>
-            </div>
+                </div>-->
         </div>
         
     </div>
