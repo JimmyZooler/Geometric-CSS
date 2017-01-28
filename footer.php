@@ -1,28 +1,14 @@
 				        <footer class="footer">
                                             <div class="row">
-                                                <div class="small-12 medium-6 large-6 columns">
-                                                    <p class="logo show-for-small-only">GEOMETRIC</p>
-                                                    <p class="logo hide-for-small-only">GEOMETRIC</p>
-                                                    <p>Web Design and Development</p>
-<!--                                                    <ul class="inline-list social">
-                                                        <a href="#"><i class="fi-social-facebook"></i></a>
-                                                        <a href="#"><i class="fi-social-twitter"></i></a>
-                                                        <a href="#"><i class="fi-social-linkedin"></i></a>
-                                                        <a href="#"><i class="fi-social-github"></i></a>
-                                                    </ul> -->
-                                                </div> <!-- footer-right column end -->
-<!--                                              <div class="small-12 medium-6 large-4 columns">
-                                                <ul class="contact">
-                                                  <li><p><i class="fi-telephone"></i>+1-656-453-9966</p></li>
-                                                  <li><p><i class="fi-mail"></i>contact@emperor.com</p></li>
-                                                </ul>
-                                              </div>-->
-                                              <div class="small-12 medium-6 large-6 columns footer-right">
+                                                <div class="small-12 columns">
+                                                    <img width="55px" src="http://localhost/geometric/wp-content/uploads/2016/10/geometric-logo_rasterize.png" />
+                                                    <p class="logo">GEOMETRIC</p>
                                                 <nav role="navigation">
                                                       <p class="footer-links">
                                                           <a href="/">Home</a>
                                                           <a href="/about">About</a>
                                                           <a href="/contact">Contact</a>
+                                                          <a href="https://www.shopify.com/?ref=geometric" >Shopify</a>
                                                       </p>
                                                 </nav>
                                                 <p class="source-org copyright">Copyright &copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>
