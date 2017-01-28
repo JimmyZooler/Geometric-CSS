@@ -16,3 +16,15 @@ jQuery(document).ready(function() {
 	jQuery('iframe[src*="youtube.com"], iframe[src*="vimeo.com"]').wrap("<div class='flex-video'/>");
 
 });
+
+jQuery(document).ready(function() {
+    
+    jQuery ("li[role='menuitem'] a").click( function() {
+        event.preventDefault();
+        jQuery('.js-off-canvas-exit').trigger('click');
+        jQuery('html, body').animate({
+            scrollTop: jQuery( jQuery.attr(this, 'href') ).offset().top
+        }, 1300);
+    });
+
+});

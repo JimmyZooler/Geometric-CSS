@@ -112,6 +112,7 @@ HOME PAGE and ABOUT PAGE STYLES
 #partners {
     text-align: left;
     padding: 3rem 2rem 4rem;
+    background-color: #f6f6f6;
 }
 #partners .row .column {
     text-align: center;
@@ -170,15 +171,17 @@ Contact Page STYLES
 .contact-h1 {
     text-align: center;
 }
+#contact {
+    padding: 5rem 2rem 4rem;
+}
 
 #contact-heading {
-    margin: 3rem 0;
-    font-size: 2rem;
+    margin: 0 0 3rem;
+    font-size: 1.6rem;
     text-align: center;
 }
 
 .contact-form {
-    margin-bottom: 3rem;
     font-size: 1.2rem;
 }
 
@@ -194,9 +197,9 @@ Contact Page STYLES
     text-align: left;
     color: #33383b; }
 .contact-form-section .contact li {
-    margin-bottom: 4rem; }
+    margin-bottom: 3rem; }
 .contact-form-section .contact li p {
-    padding-left: 5rem; }
+    padding-left: 4rem; }
 .contact-form-section .contact i {
     position: absolute;
     background-color: #dc4225;
@@ -339,6 +342,9 @@ NAVIGATION STYLES
     header {
         background: transparent !important;
     }
+    #contact-heading {
+        text-align: left;
+    }
 }
 @media only screen and (min-width: 850px) {
     .hero h1{
@@ -347,6 +353,8 @@ NAVIGATION STYLES
         font-size: 1.8rem;
         max-width: 800px;
         }
+    .contact-form-section .contact li p {
+        padding-left: 5rem; }
 }
 @media only screen and (min-width: 1050px) {
     .hero .intro { 

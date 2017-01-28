@@ -15,8 +15,8 @@ Template Name: Home Page
             </div>
         </div>
     </section>
-    <section class="second-section">
-        <h2>Our Story</h2>
+    <section class="second-section" id="about">
+        <h2>About Us</h2>
         <img width="50px" class="hr-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/hr_image.png">
         <div class="row">
             <div class="left-column">
@@ -59,6 +59,23 @@ Template Name: Home Page
                 <img width="64px" src="<?php echo get_template_directory_uri(); ?>/assets/images/hosting_new.png">
                 <h3>Premium Hosting and Management Plans</h3>
             </div>
+        </div>
+    </div>
+</section>
+<section id="contact" class="contact-form-section">
+    <div class="row">
+        <div class="contact-icons medium-6 large-5 large-offset-1 columns">
+            <h2>Let's Connect</h2>
+            <p id="contact-heading"><?php the_field('contact_heading'); ?></p>
+            <ul class="contact">
+                <li><p><i class="fi-telephone"></i>+1-819-592-1855</p></li>
+                <li><p><i class="fi-mail"></i>hi@geometricwebdesign.com</p></li>
+            </ul>             
+        </div>
+        <div class="medium-6 large-5 columns float-left">            
+                <div class="contact-form">
+                    <?php the_field('contact_form'); ?>
+                </div>
         </div>
     </div>
 </section>
