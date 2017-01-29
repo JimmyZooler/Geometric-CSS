@@ -1,7 +1,7 @@
 				        <footer class="footer">
                                             <div class="row">
                                                 <div class="small-12 columns">
-                                                    <img width="50px" src="<?php echo get_template_directory_uri(); ?>/dist/images/geometric_trim_white.png" />
+                                                    <img width="45px" src="<?php echo get_template_directory_uri(); ?>/dist/images/geometric_trim_white.png" />
                                                     <p class="logo">GEOMETRIC</p>
                                                 <nav role="navigation">
                                                       <p class="footer-links">
