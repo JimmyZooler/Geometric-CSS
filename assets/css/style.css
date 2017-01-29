@@ -736,7 +736,9 @@ FOOTER STYLES
         margin-top: 3rem;
         margin-bottom: 3rem;
     }   }
-
+  .footer img {
+    margin-bottom: 5px;
+  }
 .footer .logo {
   color: #fff;
   font-size: 1.4rem;
