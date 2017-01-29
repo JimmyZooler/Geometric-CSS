@@ -398,7 +398,7 @@ NAVIGATION STYLES
     background-color: #292c2f;
 }
 /****off-canvas menu items ***/
-#menu-item-77 a, #menu-item-76 a, #menu-item-75 a {
+#menu-item-77 a, #menu-item-76 a, #menu-item-75 a,  {
     color: #f2f2f2;
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -409,6 +409,13 @@ NAVIGATION STYLES
 }
 #menu-main-menu .menu-item {
     text-align: center;
+    color: #f2f2f2;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+#menu-main-menu .menu-item:focus {
+    outline: none;
 }
 
 .off-canvas-list ul {

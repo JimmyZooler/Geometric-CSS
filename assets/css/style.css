@@ -429,6 +429,7 @@ NAVIGATION STYLES
 #menu-main-menu .menu-item:focus {
     outline: none;
 }
+
 .off-canvas-list ul {
   margin-left: 0; }
   .off-canvas-list ul li a {
