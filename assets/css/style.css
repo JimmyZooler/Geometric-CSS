@@ -106,9 +106,6 @@ HOME PAGE and ABOUT PAGE STYLES
 #services hr {
     width: 50px;
 }
-/*#services .hr-image {
-    margin-bottom: 0;
-}*/
 #partners {
     text-align: left;
     padding: 3rem 2rem 4rem;
@@ -340,6 +337,9 @@ NAVIGATION STYLES
     header {
         background: transparent !important;
     }
+    #services .hr-image {
+        margin-bottom: 0;
+    }
 }
 @media only screen and (min-width: 850px) {
     .hero h1{
@@ -416,7 +416,7 @@ NAVIGATION STYLES
     text-transform: uppercase;
     font-weight: 400;
 }
-#menu-item-77 a:hover, #menu-item-76 a:hover, #menu-item-75 a:hover {
+#menu-item-77 a:hover, #menu-item-76 a:hover, #menu-item-75 a:hover, #menu-main-menu .menu-item a:hover {
     opacity: 0.7;
 }
 #menu-main-menu .menu-item {

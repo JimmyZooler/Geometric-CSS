@@ -26,4 +26,10 @@ jQuery(document).ready(function() {
             scrollTop: jQuery( jQuery.attr(this, 'href') ).offset().top
         }, 1300);
     });
+    jQuery ("a[class='footer-link']").click( function() {
+        event.preventDefault();
+        jQuery('html, body').animate({
+            scrollTop: jQuery( jQuery.attr(this, 'href') ).offset().top
+        }, 1300);
+    });
 });

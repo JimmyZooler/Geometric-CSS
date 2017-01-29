@@ -5,9 +5,10 @@
                                                     <p class="logo">GEOMETRIC</p>
                                                 <nav role="navigation">
                                                       <p class="footer-links">
-                                                          <a href="/">Home</a>
-                                                          <a href="/about">About</a>
-                                                          <a href="/contact">Contact</a>
+                                                          <a class="footer-link" href="#top-bar-menu">Back to Top</a>
+                                                          <a class="footer-link" href="#about">About</a>
+                                                          <a class="footer-link" href="#services">Services</a>
+                                                          <a class="footer-link" href="#contact">Contact</a>
                                                           <a href="https://www.shopify.com/?ref=geometric" >Shopify</a>
                                                       </p>
                                                 </nav>
