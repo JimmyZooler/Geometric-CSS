@@ -17,46 +17,50 @@ Template Name: Home Page
     </section>
     <section class="second-section" id="about">
         <h2>About Us</h2>
-        <img width="50px" class="hr-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/hr_image.png">
-        <div class="row">
-            <div class="left-column">
-                <p><?php the_field('column_1_content'); ?></p>
-            </div>
-            <div class="right-column">
-                <?php the_field('column_2_content'); ?>
+        <img width="50px" class="hr-image" src="<?php echo get_template_directory_uri(); ?>/dist/images/hr_image.png">
+        <div class="left-column">
+            <p><?php the_field('column_1_content'); ?></p>
+        </div>
+        <div class="right-column">
+            <div class="row">
+                <div class='column medium-4'>
+                    <img src="<?php the_field('craig_image'); ?>"/>
+                </div>
+                <div class='column medium-8'>
+                    <?php the_field('column_2_content'); ?>
+                </div>
             </div>
         </div>
-
     </section>
-<section id="services" style="background: url('<?php echo get_template_directory_uri(); ?>/assets/images/offic_desk.jpg');">
+<section id="services" style="background: url('<?php echo get_template_directory_uri(); ?>/dist/images/offic_desk.jpg');">
     <div class="container">
         <h2>What We Do</h2>
-        <img width="50px" class="hr-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/hr_image_white.png">
+        <img width="50px" class="hr-image" src="<?php echo get_template_directory_uri(); ?>/dist/images/hr_image_white.png">
         <div class="row">
             <div class="column medium-4">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/pencil.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/pencil.png">
                 <h3>Branding and Logo Design</h3>
             </div>
             <div class="column medium-4">
-                <img width="64px" src="<?php echo get_template_directory_uri(); ?>/assets/images/design.png">
+                <img width="64px" src="<?php echo get_template_directory_uri(); ?>/dist/images/design.png">
                 <h3>Website Design</h3>
             </div>
             <div class="column medium-4">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/development.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/development.png">
                 <h3>Custom Development</h3>
             </div>
         </div>
         <div class="row">
             <div class="column medium-4">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/marketing_2.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/images/marketing_2.png">
                 <h3>SEO and Social Media Marketing</h3>
             </div>
             <div class="column medium-4">
-                <img width="64px" src="<?php echo get_template_directory_uri(); ?>/assets/images/shopify-logo.png">
+                <img width="64px" src="<?php echo get_template_directory_uri(); ?>/dist/images/shopify-logo.png">
                 <h3>E-Commerce with Shopify</h3>
             </div>
             <div class="column medium-4">
-                <img width="64px" src="<?php echo get_template_directory_uri(); ?>/assets/images/hosting_new.png">
+                <img width="64px" src="<?php echo get_template_directory_uri(); ?>/dist/images/hosting_new.png">
                 <h3>Premium Hosting and Management Plans</h3>
             </div>
         </div>
@@ -87,16 +91,16 @@ Template Name: Home Page
     </div>
     <div class="row partners-images">
         <div class="column small-6 medium-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/wordpress-logo.png" />
+            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/wordpress-logo.png" />
         </div>
         <div class="column small-6 medium-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/shopify-logo-main.png" />
+            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/shopify-logo-main.png" />
         </div>
         <div class="column small-6 medium-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_full_white.png" />
+            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/logo_full_white.png" />
         </div>
         <div class="column small-6 medium-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mc_script.png" />
+            <img src="<?php echo get_template_directory_uri(); ?>/dist/images/mc_script.png" />
         </div>
     </div>
 </section>

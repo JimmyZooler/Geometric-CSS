@@ -26,5 +26,4 @@ jQuery(document).ready(function() {
             scrollTop: jQuery( jQuery.attr(this, 'href') ).offset().top
         }, 1300);
     });
-
 });
