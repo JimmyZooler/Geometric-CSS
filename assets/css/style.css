@@ -106,9 +106,9 @@ HOME PAGE and ABOUT PAGE STYLES
 #services hr {
     width: 50px;
 }
-#services .hr-image {
+/*#services .hr-image {
     margin-bottom: 0;
-}
+}*/
 #partners {
     text-align: left;
     padding: 3rem 2rem 4rem;
@@ -391,7 +391,7 @@ NAVIGATION STYLES
         background: none!important;
     }
     .contact-form-section .contact li p {
-    padding-left: 2rem;
+    padding-left: 4rem;
     font-size: 16px;}
 }
 @media only screen and (max-width: 640px) {
@@ -410,7 +410,7 @@ NAVIGATION STYLES
     background-color: #292c2f;
 }
 /****off-canvas menu items ***/
-#menu-item-77 a, #menu-item-76 a, #menu-item-75 a,  {
+#menu-item-77 a, #menu-item-76 a, #menu-item-75 a, #menu-main-menu .menu-item a  {
     color: #f2f2f2;
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -421,12 +421,8 @@ NAVIGATION STYLES
 }
 #menu-main-menu .menu-item {
     text-align: center;
-    color: #f2f2f2!important;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    font-weight: 400;
 }
-#menu-main-menu .menu-item:focus {
+#menu-main-menu .menu-item a:focus {
     outline: none;
 }
 
