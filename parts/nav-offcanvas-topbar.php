@@ -4,7 +4,7 @@
 <div class="top-bar" id="top-bar-menu">
 	<div class="top-bar-left float-left">
 		<ul class="menu">
-			<li><a id="logo-name" href="<?php echo home_url(); ?>"><img id="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/geometric_trim_white.png"><?php bloginfo('name'); ?></a></li>
+			<li><a id="logo-name" href="<?php echo home_url(); ?>"><img id="logo" src="<?php echo get_template_directory_uri(); ?>/dist/images/geometric_trim_white.png"><?php bloginfo('name'); ?></a></li>
 		</ul>
             <a style="display:none;" href="<?php echo home_url(); ?>"></a>
 	</div>
