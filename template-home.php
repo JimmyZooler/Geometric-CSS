@@ -32,7 +32,7 @@ Template Name: Home Page
             </div>
         </div>
     </section>
-<section id="services" style="background: url('<?php echo get_template_directory_uri(); ?>/dist/images/offic_desk.jpg');">
+<section id="services" style="background: url('<?php echo get_template_directory_uri(); ?>/dist/images/offic_desk.jpg');background-attachment: fixed;">
     <div class="container">
         <h2>What We Do</h2>
         <img width="50px" class="hr-image" src="<?php echo get_template_directory_uri(); ?>/dist/images/hr_image_white.png">
