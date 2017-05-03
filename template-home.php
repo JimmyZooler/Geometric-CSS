@@ -71,10 +71,10 @@ Template Name: Home Page
         <h2>Our Work</h2>
         <h5>Some small businesses and entrepreneurs we've had the pleasure of working with.</h5>
         <div class="row">
-            <div class="column large-7">
+            <div class="column medium-6 medium-offset-1">
                 <img src="/geometric/wp-content/themes/geometric-css/assets/images/portfolio_schwab_crop.png">
             </div>
-            <div id="copy" class="column large-4 content">
+            <div id="copy" class="column medium-4 content">
                 <h3>Sebastien Schwab Cuisine</h3>
                 <p><a href="www.sebastienschwabcuisine.com">www.sebastienschwabcuisine.com</a></p>
                 <p>Sebastien Schwab approached us with a request to upgrade their website with a fresh new look on the WordPress platform.
@@ -82,20 +82,20 @@ Template Name: Home Page
             </div>
         </div>
         <div class="row grey">
-            <div id="copy" class="column large-4 large-offset-1">
+            <div id="copy" class="column medium-4 medium-offset-2">
                 <h3>Shantz Construction</h3>
                 <p><a href"http://www.shantzconstruction.com">www.shantzconstruction.com</a></p>
                 <p>Shantz Construction is a talented company that was looking for a web presence to showcase their quality work. </p>
             </div>
-            <div class="column large-7">
+            <div class="column medium-6">
                 <img src="/geometric/wp-content/themes/geometric-css/assets/images/portfolio_shantz_crop.png" />
             </div>
         </div>
         <div class="row">
-            <div class="column large-7">
+            <div class="column medium-6 medium-offset-1">
                 <img src="/geometric/wp-content/themes/geometric-css/assets/images/portfolio_zen_athlete_crop.png" />
             </div>
-            <div id="copy" class="column large-4">
+            <div id="copy" class="column medium-4">
                 <h3>Zen Athlete</h3>
                 <p><a href="http://zenathlete.com">www.zenathlete.com</a></p>
                 <p>Matt of Zen Athlete is one bad ass dude, and when he contacted us to take a look at his site we were very excited. Matt's old site was not performing very well and he needed some help. We assured him that for an e-commerce store Shopify would be a much better solution and we could really bring his brand to the next level. After one month with the new store Matt had already surpassed his last six months of sales!
@@ -103,12 +103,12 @@ Template Name: Home Page
             </div>
         </div>
         <div class="row grey">
-            <div id="copy" class="column large-4 large-offset-1">
+            <div id="copy" class="column medium-4 medium-offset-2">
                 <h3>Brian Tohana - True Inner Work</h3>
                 <p><a href="http://briantohana.com">www.briantohana.com</a></p>
                 <p>Brian is a talented author, life and business coach. He was looking for a way to use imagery, video, and blog posts to promote his services and to have an artistic way of communicating with the world. To achieve this we created a completely custom experience with a WordPress backend for easy content management.</p>
             </div>
-            <div id="copy" class="column large-7">
+            <div class="column medium-6">
                 <img src="/geometric/wp-content/themes/geometric-css/assets/images/portfolio_brian_1_crop.png" />
             </div>
         </div>

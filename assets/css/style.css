@@ -113,7 +113,7 @@ Portfolio Section STYLES
 *********************/
 #work {
   text-align: center;
-  padding: 4rem 0;
+  padding: 4rem 0 0;
 }
 #work h5 {
   padding-bottom: 2.5rem;
@@ -123,12 +123,18 @@ Portfolio Section STYLES
   background: #f2f2f2;
 }
 #work #copy {
-        padding-top: 70px!important;
+        padding: 50px 0!important;
         float: left;
         text-align: left;
-}
-#work #copy h2 {
+    }
+#work #copy h3 {
   font-size: 1.8rem;
+}
+#work img {
+    margin: 30px 0;
+}
+#work #copy a {
+    color: #004166;
 }
 
 
@@ -401,7 +407,6 @@ NAVIGATION STYLES
         margin: auto;
     }
 }
-
 @media only screen and (max-width: 40.063em) {
     .top-bar-left, .top-bar-right {
         width: 50%; }
@@ -413,7 +418,17 @@ NAVIGATION STYLES
     .top-bar-right .menu-icon {
         font-size: 1.3rem;
     }
-    
+    #work #copy {
+        padding-top: 0px!important;
+        padding-bottom: 0px!important;
+        padding-left: 5%!important;
+        padding-right: 5%!important;;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #work .row {
+        padding: 30px 0;
+    }
 }
 @media all and (max-width: 450px) {
     .top-bar {
